@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { filter, map, catchError, tap } from 'rxjs/operators';
+import { filter, map, catchError, tap, reduce } from 'rxjs/operators';
+// import {DevExp} from 'devexp';
 
 @Injectable({
   providedIn: 'root'
@@ -47,14 +48,15 @@ export class RestService {
     );
   }
 
-  // getDevExpDetail(id: number): Observable<any> {
-  //   var result = this.http.get(this.devExpsEndpoint).pipe(map(devExp => devExp.id === id));
-  //
-  //   console.log(result);
+  // getDevExpDetail(id: number): Observable<Devexp> {
+  //   const devExpsList: Devexp[] = [this.http.get(this.otherExpsEndpoint).pipe(map(this.extractData))];
+  //   var result = of(devExpsList.find(devExp => devExp.id === id));
+  //   console.log(devExpsList);
   //   return result;
   // }
 
   getDevExpDetail(id: number): Observable<any> {
+    // return this.http.get(this.devExpsEndpoint).pipe(map(devExp => devExp.id === id));
     return this.http.get(this.devExpsEndpoint).pipe(map((devExp) => {
       var result = []
       for (let d of devExp) {
@@ -62,11 +64,6 @@ export class RestService {
           result.push(d)
         }
       }
-      // for (var i = 0; i < devExp.length; i++) {
-      //   if (devExp[i].id === id) {
-      //     result.push(devExp[i])
-      //   }
-      // }
       console.log(result);
       return result
     }));
