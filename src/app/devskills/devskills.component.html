@@ -1,0 +1,8 @@
+<h2>Devskills List</h2>
+<ul class="devskills">
+  <li *ngFor="let dsk of devSkills;">
+    <!-- <a routerLink="/product-details/{{p._id}}"> -->
+      {{dsk.title}} (niveau: {{dsk.level}})
+    <!-- </a> -->
+  </li>
+</ul>

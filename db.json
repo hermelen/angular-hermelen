@@ -1,0 +1,114 @@
+{
+  "whoAmI": {"content": "Passionné par la création et le numérique, j'ai décidé de me reconvertir dans le développement web il y a un an après une première vie dans le transport international. C'est de toute évidence ma formation initiale en Design qui correspond d'avantage à ma personnalité. Néanmoins mon expérience commerciale chez FedEx m'a sensibilisé à l'attention portée aux clients et à l'élaboration de projets répondant à leurs attentes. Fort de mes expériences et de mon cursus artistique, j'ai suivi une formation de développeur-intégrateur web, découvrant qu'au-delà du design, le développement back-office était également extrêmement passionant. N'hésitez pas à visiter mon site pour découvrir les projets que j'ai réalisé et à me contacter si vous le souhaitez."},
+  "webXp": [
+    {
+      "title": "www.moulindelaborie.com",
+      "startDate": "2018/02/01",
+      "endDate": "2018/03/15",
+      "shortDesc": "Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48)",
+      "description": "Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48)"
+    },
+    {
+      "title": "www.csa.9rima.com",
+      "startDate": "2017/11/01",
+      "endDate": "2017/12/15",
+      "shortDesc": "Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)",
+      "description": "Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)"
+    },
+    {
+      "title": "www.1001legumes.com",
+      "startDate": "2017/03/01",
+      "endDate": "2017/04/15",
+      "shortDesc": "Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)",
+      "description": "Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)"
+    }
+  ],
+  "school": [
+    {
+      "title": "Développez votre site web avec le framework Symfony",
+      "startDate": "2017/06/01",
+      "endDate": "2017/07/01",
+      "shortDesc": "Prise en main Symfony, le framework PHP de référence. Création d'un projet de site web avec Symfony, utilisation des principaux Bundles. Certificat de réussite du cours délivré par SensioLabs et OpenClassrooms.",
+      "description": ""
+    },
+    {
+      "title": "Développeur et Intégrateur Web",
+      "startDate": "2016/09/01",
+      "endDate": "2017/02/01",
+      "shortDesc": "Base de données MySQL PHP procédure et orienté objet. Développement MVC CMS WordPress Intégration web. Intégration HTML / CSS Responsive Web Design (mobile). JavaScript, JQuery et AJAX",
+      "description": ""
+    },
+    {
+      "title": "Diplôme National d'Art Plastique en Design d'Objet",
+      "startDate": "1999/09/01",
+      "endDate": "2002/07/01",
+      "shortDesc": "Diplôme National D'Arts Plastique Option Design (Licence). Dessin technique, PAO (Photoshop, Illustrator, Modélisation et animation 3D)",
+      "description": ""
+    },
+    {
+      "title": "Baccalauréat SES Lycée Schoelcher",
+      "startDate": "1999/06/01",
+      "endDate": "1999/06/30",
+      "shortDesc": "Baccalauréat Sciences économiques et sociales",
+      "description": ""
+    }
+  ],
+  "devSkills": [
+    {"title": "HTML", "level": 9},
+    {"title": "CSS", "level": 9},
+    {"title": "PHP", "level": 7},
+    {"title": "POO", "level": 6},
+    {"title": "Symfony", "level": 5},
+    {"title": "Wordpress", "level": 7},
+    {"title": "MySQL", "level": 8},
+    {"title": "Javascript", "level": 8},
+    {"title": "jQuery", "level": 8},
+    {"title": "Ajax", "level": 7},
+    {"title": "Responsive", "level": 9}
+  ],
+  "otherSkills": [
+    {"title": "Photoshop", "level": 8},
+    {"title": "Illustrator", "level": 5},
+    {"title": "PowerPoint", "level": 8},
+    {"title": "Excel", "level": 7},
+    {"title": "Word", "level": 7},
+    {"title": "Anglais", "level": 8},
+    {"title": "Espagnol", "level": 7},
+    {"title": "Vente", "level": 8},
+    {"title": "Négociation", "level": 8}
+  ],
+  "otherXp": [
+    {
+      "title": "Attaché Commercial FedEx",
+      "startDate": "2013-01-01",
+      "endDate": "2016-01-01",
+      "shortDesc": "Gestion et développement du portefeuille client.",
+      "desc": "",
+      "location": "Gennevilliers(92)"
+    },
+    {
+      "title": "Conseiller Clientèle FedEx France",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "shortDesc": "Conseil et assistance des expéditeurs et destinataires.",
+      "desc": "",
+      "location": "Orly(91)"
+    },
+    {
+      "title": "Conseiller Clientèle CPAM",
+      "startDate": "2009-01-01",
+      "endDate": "2010-01-01",
+      "shortDesc": "Conseil et assistance aux assurés.",
+      "desc": "",
+      "location": "Mende(48)"
+    },
+    {
+      "title": "Responsable Centre d'Appel Pénélope",
+      "startDate": "2007-01-01",
+      "endDate": "2008-01-01",
+      "shortDesc": "Gestion d’une équipe et formation. Reporting des enquêtes aux clients.",
+      "desc": "",
+      "location": "Paris"
+    }
+  ]
+}
