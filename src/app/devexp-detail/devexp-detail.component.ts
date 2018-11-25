@@ -9,13 +9,21 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class DevexpDetailComponent implements OnInit {
 
+  devExp:any = [];
+
   constructor(
-    public rest:RestService,
+    public rest: RestService,
     private route: ActivatedRoute,
     private router: Router
   ) { }
 
   ngOnInit() {
+    this.getDevExpDetail();
   }
 
+  getDevExpDetail() {
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.rest.getDevExpDetail(id)
+    .subscribe(devExp => this.devExp = devExp);
+  }
 }

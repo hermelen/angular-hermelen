@@ -1,8 +1,8 @@
 <h2>DevExps List</h2>
 <ul class="devExps">
   <li *ngFor="let dxp of devExps;">
-    <!-- <a routerLink="/product-details/{{p._id}}"> -->
+    <a routerLink="/dev-xp/{{dxp.id}}">
       {{dxp.title}}
-    <!-- </a> -->
+    </a>
   </li>
 </ul>

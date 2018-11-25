@@ -47,6 +47,31 @@ export class RestService {
     );
   }
 
+  // getDevExpDetail(id: number): Observable<any> {
+  //   var result = this.http.get(this.devExpsEndpoint).pipe(map(devExp => devExp.id === id));
+  //
+  //   console.log(result);
+  //   return result;
+  // }
+
+  getDevExpDetail(id: number): Observable<any> {
+    return this.http.get(this.devExpsEndpoint).pipe(map((devExp) => {
+      var result = []
+      for (let d of devExp) {
+        if (d.id === id) {
+          result.push(d)
+        }
+      }
+      // for (var i = 0; i < devExp.length; i++) {
+      //   if (devExp[i].id === id) {
+      //     result.push(devExp[i])
+      //   }
+      // }
+      console.log(result);
+      return result
+    }));
+  }
+
   getOtherExps(): Observable<any> {
     return this.http.get(this.otherExpsEndpoint).pipe(
       map(this.extractData)

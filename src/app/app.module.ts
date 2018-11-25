@@ -18,12 +18,14 @@ import { OtherskillsComponent } from './otherskills/otherskills.component';
 import { DevexpDetailComponent } from './devexp-detail/devexp-detail.component';
 
 const appRoutes: Routes = [
-  { path: '', component: WhoamiComponent },
+  { path: 'dev-xp/:id', component: DevexpDetailComponent },
+
+  { path: '', component: WhoamiComponent},
   { path: '', component: TrainingsComponent, outlet:'secondary' },
   { path: '', component: DevexpsComponent, outlet:'tertiary' },
   { path: '', component: OtherexpsComponent, outlet:'quaternary' },
   { path: '', component: DevskillsComponent, outlet:'quinary' },
-  { path: '', component: OtherskillsComponent, outlet:'senary' }
+  { path: '', component: OtherskillsComponent, outlet:'senary' },
 ]
 
 @NgModule({
