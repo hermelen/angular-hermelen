@@ -15,6 +15,7 @@ import { DevexpsComponent } from './devexps/devexps.component';
 import { OtherexpsComponent } from './otherexps/otherexps.component';
 import { DevskillsComponent } from './devskills/devskills.component';
 import { OtherskillsComponent } from './otherskills/otherskills.component';
+import { DevexpDetailComponent } from './devexp-detail/devexp-detail.component';
 
 const appRoutes: Routes = [
   { path: '', component: WhoamiComponent },
@@ -34,6 +35,7 @@ const appRoutes: Routes = [
     OtherexpsComponent,
     DevskillsComponent,
     OtherskillsComponent,
+    DevexpDetailComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

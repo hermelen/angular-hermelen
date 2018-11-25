@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-otherskills',
   templateUrl: './otherskills.component.html',
-  styleUrls: ['./otherskills.component.sass']
+  styleUrls: ['./otherskills.component.scss']
 })
 export class OtherskillsComponent implements OnInit {
 

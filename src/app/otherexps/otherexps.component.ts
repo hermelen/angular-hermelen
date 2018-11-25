@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-otherexps',
   templateUrl: './otherexps.component.html',
-  styleUrls: ['./otherexps.component.sass']
+  styleUrls: ['./otherexps.component.scss']
 })
 export class OtherexpsComponent implements OnInit {
 

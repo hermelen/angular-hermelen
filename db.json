@@ -1,7 +1,8 @@
 {
-  "whoAmI": {"content": "Passionné par la création et le numérique, j'ai décidé de me reconvertir dans le développement web il y a un an après une première vie dans le transport international. C'est de toute évidence ma formation initiale en Design qui correspond d'avantage à ma personnalité. Néanmoins mon expérience commerciale chez FedEx m'a sensibilisé à l'attention portée aux clients et à l'élaboration de projets répondant à leurs attentes. Fort de mes expériences et de mon cursus artistique, j'ai suivi une formation de développeur-intégrateur web, découvrant qu'au-delà du design, le développement back-office était également extrêmement passionant. N'hésitez pas à visiter mon site pour découvrir les projets que j'ai réalisé et à me contacter si vous le souhaitez."},
+  "whoAmI": { "id": 1, "content": "Passionné par la création et le numérique, j'ai décidé de me reconvertir dans le développement web il y a un an après une première vie dans le transport international. C'est de toute évidence ma formation initiale en Design qui correspond d'avantage à ma personnalité. Néanmoins mon expérience commerciale chez FedEx m'a sensibilisé à l'attention portée aux clients et à l'élaboration de projets répondant à leurs attentes. Fort de mes expériences et de mon cursus artistique, j'ai suivi une formation de développeur-intégrateur web, découvrant qu'au-delà du design, le développement back-office était également extrêmement passionant. N'hésitez pas à visiter mon site pour découvrir les projets que j'ai réalisé et à me contacter si vous le souhaitez."},
   "trainings": [
     {
+      "id": 1,
       "title": "Développez votre site web avec le framework Symfony",
       "startDate": "2017/06/01",
       "endDate": "2017/07/01",
@@ -9,6 +10,7 @@
       "description": ""
     },
     {
+      "id": 2,
       "title": "Développeur et Intégrateur Web",
       "startDate": "2016/09/01",
       "endDate": "2017/02/01",
@@ -16,6 +18,7 @@
       "description": ""
     },
     {
+      "id": 3,
       "title": "Diplôme National d'Art Plastique en Design d'Objet",
       "startDate": "1999/09/01",
       "endDate": "2002/07/01",
@@ -23,6 +26,7 @@
       "description": ""
     },
     {
+      "id": 4,
       "title": "Baccalauréat SES Lycée Schoelcher",
       "startDate": "1999/06/01",
       "endDate": "1999/06/30",
@@ -32,6 +36,7 @@
   ],
   "devExps": [
     {
+      "id": 1,
       "title": "www.moulindelaborie.com",
       "startDate": "2018/02/01",
       "endDate": "2018/03/15",
@@ -39,6 +44,7 @@
       "description": "Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48)"
     },
     {
+      "id": 2,
       "title": "www.csa.9rima.com",
       "startDate": "2017/11/01",
       "endDate": "2017/12/15",
@@ -46,6 +52,7 @@
       "description": "Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)"
     },
     {
+      "id": 3,
       "title": "www.1001legumes.com",
       "startDate": "2017/03/01",
       "endDate": "2017/04/15",
@@ -55,6 +62,7 @@
   ],
   "otherExps": [
     {
+      "id": 1,
       "title": "Attaché Commercial FedEx",
       "startDate": "2013-01-01",
       "endDate": "2016-01-01",
@@ -63,6 +71,7 @@
       "location": "Gennevilliers(92)"
     },
     {
+      "id": 2,
       "title": "Conseiller Clientèle FedEx France",
       "startDate": "2011-01-01",
       "endDate": "2013-01-01",
@@ -71,6 +80,7 @@
       "location": "Orly(91)"
     },
     {
+      "id": 3,
       "title": "Conseiller Clientèle CPAM",
       "startDate": "2009-01-01",
       "endDate": "2010-01-01",
@@ -79,6 +89,7 @@
       "location": "Mende(48)"
     },
     {
+      "id": 4,
       "title": "Responsable Centre d'Appel Pénélope",
       "startDate": "2007-01-01",
       "endDate": "2008-01-01",

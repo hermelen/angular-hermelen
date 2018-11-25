@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-devexps',
   templateUrl: './devexps.component.html',
-  styleUrls: ['./devexps.component.sass']
+  styleUrls: ['./devexps.component.scss']
 })
 export class DevexpsComponent implements OnInit {
 

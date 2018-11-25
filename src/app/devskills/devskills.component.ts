@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-devskills',
   templateUrl: './devskills.component.html',
-  styleUrls: ['./devskills.component.sass']
+  styleUrls: ['./devskills.component.scss']
 })
 export class DevskillsComponent implements OnInit {
 

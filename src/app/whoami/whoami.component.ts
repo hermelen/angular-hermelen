@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-whoami',
   templateUrl: './whoami.component.html',
-  styleUrls: ['./whoami.component.sass']
+  styleUrls: ['./whoami.component.scss']
 })
 export class WhoamiComponent implements OnInit {
 
