@@ -20,7 +20,6 @@ export class OtherskillsComponent implements OnInit {
   getOtherSkills() {
     this.otherSkills = [];
     this.rest.getOtherSkills().subscribe((data: {}) => {
-      console.log(data);
       this.otherSkills = data;
     });
   }

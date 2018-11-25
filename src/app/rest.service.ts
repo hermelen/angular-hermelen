@@ -8,8 +8,13 @@ import { filter, map, catchError, tap } from 'rxjs/operators';
 })
 export class RestService {
 
+  whoAmIEndpoint = 'http://localhost:3000/whoAmI';
+  trainingsEndpoint = 'http://localhost:3000/trainings';
+  devExpsEndpoint = 'http://localhost:3000/devExps';
+  otherExpsEndpoint = 'http://localhost:3000/otherExps';
   devSkillsEndpoint = 'http://localhost:3000/devSkills';
   otherSkillsEndpoint = 'http://localhost:3000/otherSkills';
+
 
   httpOptions = {
     headers: new HttpHeaders({
@@ -24,14 +29,40 @@ export class RestService {
     return body || { };
   }
 
+  getWhoAmI(): Observable<any> {
+    return this.http.get(this.whoAmIEndpoint).pipe(
+      map(this.extractData)
+    );
+  }
+
+  getTrainings(): Observable<any> {
+    return this.http.get(this.trainingsEndpoint).pipe(
+      map(this.extractData)
+    );
+  }
+
+  getDevExps(): Observable<any> {
+    return this.http.get(this.devExpsEndpoint).pipe(
+      map(this.extractData)
+    );
+  }
+
+  getOtherExps(): Observable<any> {
+    return this.http.get(this.otherExpsEndpoint).pipe(
+      map(this.extractData)
+    );
+  }
+
   getDevSkills(): Observable<any> {
     return this.http.get(this.devSkillsEndpoint).pipe(
-      map(this.extractData));
+      map(this.extractData)
+    );
   }
 
   getOtherSkills(): Observable<any> {
     return this.http.get(this.otherSkillsEndpoint).pipe(
-      map(this.extractData));
+      map(this.extractData)
+    );
   }
 
   // getProduct(id): Observable<any> {

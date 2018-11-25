@@ -1,29 +1,6 @@
 {
   "whoAmI": {"content": "Passionné par la création et le numérique, j'ai décidé de me reconvertir dans le développement web il y a un an après une première vie dans le transport international. C'est de toute évidence ma formation initiale en Design qui correspond d'avantage à ma personnalité. Néanmoins mon expérience commerciale chez FedEx m'a sensibilisé à l'attention portée aux clients et à l'élaboration de projets répondant à leurs attentes. Fort de mes expériences et de mon cursus artistique, j'ai suivi une formation de développeur-intégrateur web, découvrant qu'au-delà du design, le développement back-office était également extrêmement passionant. N'hésitez pas à visiter mon site pour découvrir les projets que j'ai réalisé et à me contacter si vous le souhaitez."},
-  "webXp": [
-    {
-      "title": "www.moulindelaborie.com",
-      "startDate": "2018/02/01",
-      "endDate": "2018/03/15",
-      "shortDesc": "Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48)",
-      "description": "Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48)"
-    },
-    {
-      "title": "www.csa.9rima.com",
-      "startDate": "2017/11/01",
-      "endDate": "2017/12/15",
-      "shortDesc": "Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)",
-      "description": "Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)"
-    },
-    {
-      "title": "www.1001legumes.com",
-      "startDate": "2017/03/01",
-      "endDate": "2017/04/15",
-      "shortDesc": "Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)",
-      "description": "Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)"
-    }
-  ],
-  "school": [
+  "trainings": [
     {
       "title": "Développez votre site web avec le framework Symfony",
       "startDate": "2017/06/01",
@@ -53,31 +30,30 @@
       "description": ""
     }
   ],
-  "devSkills": [
-    {"title": "HTML", "level": 9},
-    {"title": "CSS", "level": 9},
-    {"title": "PHP", "level": 7},
-    {"title": "POO", "level": 6},
-    {"title": "Symfony", "level": 5},
-    {"title": "Wordpress", "level": 7},
-    {"title": "MySQL", "level": 8},
-    {"title": "Javascript", "level": 8},
-    {"title": "jQuery", "level": 8},
-    {"title": "Ajax", "level": 7},
-    {"title": "Responsive", "level": 9}
+  "devExps": [
+    {
+      "title": "www.moulindelaborie.com",
+      "startDate": "2018/02/01",
+      "endDate": "2018/03/15",
+      "shortDesc": "Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48)",
+      "description": "Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48). Site web du Moulin de la Borie sur Wordpress. Thème enfant One-Page site-vitrine et e-commerce. (Hures-la-Parade 48)"
+    },
+    {
+      "title": "www.csa.9rima.com",
+      "startDate": "2017/11/01",
+      "endDate": "2017/12/15",
+      "shortDesc": "Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)",
+      "description": "Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)Site web du Club Artistique et Sportif du 9émé RIMa sur Wordpress. Thème enfant, site vitrine des activités du Club. (Cayenne 973)"
+    },
+    {
+      "title": "www.1001legumes.com",
+      "startDate": "2017/03/01",
+      "endDate": "2017/04/15",
+      "shortDesc": "Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)",
+      "description": "Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)Site web du potager de Beaumesnil sur Wordpress. Création thème Wordpress, vitrine et e-commerce. (Beaumesnil 27)"
+    }
   ],
-  "otherSkills": [
-    {"title": "Photoshop", "level": 8},
-    {"title": "Illustrator", "level": 5},
-    {"title": "PowerPoint", "level": 8},
-    {"title": "Excel", "level": 7},
-    {"title": "Word", "level": 7},
-    {"title": "Anglais", "level": 8},
-    {"title": "Espagnol", "level": 7},
-    {"title": "Vente", "level": 8},
-    {"title": "Négociation", "level": 8}
-  ],
-  "otherXp": [
+  "otherExps": [
     {
       "title": "Attaché Commercial FedEx",
       "startDate": "2013-01-01",
@@ -110,5 +86,29 @@
       "desc": "",
       "location": "Paris"
     }
+  ],
+  "devSkills": [
+    {"title": "HTML", "level": 9},
+    {"title": "CSS", "level": 9},
+    {"title": "PHP", "level": 7},
+    {"title": "POO", "level": 6},
+    {"title": "Symfony", "level": 5},
+    {"title": "Wordpress", "level": 7},
+    {"title": "MySQL", "level": 8},
+    {"title": "Javascript", "level": 8},
+    {"title": "jQuery", "level": 8},
+    {"title": "Ajax", "level": 7},
+    {"title": "Responsive", "level": 9}
+  ],
+  "otherSkills": [
+    {"title": "Photoshop", "level": 8},
+    {"title": "Illustrator", "level": 5},
+    {"title": "PowerPoint", "level": 8},
+    {"title": "Excel", "level": 7},
+    {"title": "Word", "level": 7},
+    {"title": "Anglais", "level": 8},
+    {"title": "Espagnol", "level": 7},
+    {"title": "Vente", "level": 8},
+    {"title": "Négociation", "level": 8}
   ]
 }

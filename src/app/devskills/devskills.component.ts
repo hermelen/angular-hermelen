@@ -20,7 +20,6 @@ export class DevskillsComponent implements OnInit {
   getDevSkills() {
     this.devSkills = [];
     this.rest.getDevSkills().subscribe((data: {}) => {
-      console.log(data);
       this.devSkills = data;
     });
   }

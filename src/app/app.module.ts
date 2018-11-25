@@ -3,67 +3,43 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DevskillsComponent } from './devskills/devskills.component';
-import { OtherskillsComponent } from './otherskills/otherskills.component';
 
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
 
-const appRoutes: Routes = [
-  { path: '', component: DevskillsComponent },
-  { path: '', component: OtherskillsComponent, outlet:'secondary' }
-]
+import { WhoamiComponent } from './whoami/whoami.component';
+import { TrainingsComponent } from './trainings/trainings.component';
+import { DevexpsComponent } from './devexps/devexps.component';
+import { OtherexpsComponent } from './otherexps/otherexps.component';
+import { DevskillsComponent } from './devskills/devskills.component';
+import { OtherskillsComponent } from './otherskills/otherskills.component';
 
-// const appRoutes: Routes = [
-//   {
-//     path: '', component: DevskillsComponent, children: [
-//       { path: 'devskills', component: DevskillsComponent },
-//       { path: 'otherskills', component: OtherskillsComponent }
-//     ]
-//   }
-// const appRoutes: Routes = [
-//   {
-//     path: 'home',
-//     component: [
-//       DevskillsComponent,
-//       OtherskillsComponent
-//     ]
-//     data: { title: 'DevSkills List' }
-//   },
-  // {
-  //   path: 'product-details/:id',
-  //   component: ProductDetailComponent,
-  //   data: { title: 'Product Details' }
-  // },
-  // {
-  //   path: 'product-add',
-  //   component: ProductAddComponent,
-  //   data: { title: 'Product Add' }
-  // },
-  // {
-  //   path: 'product-edit/:id',
-  //   component: ProductEditComponent,
-  //   data: { title: 'Product Edit' }
-  // },
-  // { path: '',
-  //   redirectTo: '/home',
-  //   pathMatch: 'full'
-  // }
-// ];
+const appRoutes: Routes = [
+  { path: '', component: WhoamiComponent },
+  { path: '', component: TrainingsComponent, outlet:'secondary' },
+  { path: '', component: DevexpsComponent, outlet:'tertiary' },
+  { path: '', component: OtherexpsComponent, outlet:'quaternary' },
+  { path: '', component: DevskillsComponent, outlet:'quinary' },
+  { path: '', component: OtherskillsComponent, outlet:'senary' }
+]
 
 @NgModule({
   declarations: [
     AppComponent,
+    WhoamiComponent,
+    TrainingsComponent,
+    DevexpsComponent,
+    OtherexpsComponent,
     DevskillsComponent,
-    OtherskillsComponent
+    OtherskillsComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
     FormsModule,
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
